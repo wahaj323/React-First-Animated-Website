@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: Doto;
+    src: url('../src/Fonts/FoundersGrotesk-Semibold.ttf');
+}
+
+@import "tailwindcss/preflight"; /* Replaces @tailwind base */
+@import "tailwindcss/utilities"; /* Includes both components & utilities */
+@import "tailwindcss";
+
+@theme{
+    --font-doto: Doto
+}
