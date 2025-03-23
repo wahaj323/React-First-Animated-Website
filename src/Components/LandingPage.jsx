@@ -1,7 +1,9 @@
+import { motion } from 'framer-motion';
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
 
 function LandingPage() {
+    
   return (
     <div className='w-full h-screen pt-1'>
         <div className="textstructure mt-32 px-20">
@@ -10,7 +12,7 @@ function LandingPage() {
             </div>
             <div className="masker font-doto">
                 <div className="w-fit flex">
-                    <div className='mr-5 rounded-md w-[9vw] h-[5.5vw] bg-green-400 mt-4'></div>
+                    <motion.div initial={{width: 0}} animate={{width: '9vw'}} transition={{ease: [0.76, 0, 0.24, 1], duration:1}} className='mr-5 rounded-md w-[9vw] h-[5.5vw] bg-green-400 mt-4'></motion.div>
                     <h1 className='uppercase text-[9vw] leading-[6.5vw] tracking-tight font-semibold'>eye-opening</h1>
                 </div>
                 
