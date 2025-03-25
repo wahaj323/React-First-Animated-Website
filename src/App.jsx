@@ -5,6 +5,7 @@ import Marquee from './Components/Marquee'
 import About from './Components/About'
 import Eyes from './Components/Eyes'
 import LocomotiveScroll from 'locomotive-scroll';
+import Feautured from './Components/Feautured'
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -16,6 +17,7 @@ const App = () => {
       <Marquee/>
       <About/>
       <Eyes/>
+      <Feautured/>
     </div>
   )
 }
